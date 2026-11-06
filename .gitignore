@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+# PRIVADO: nunca subir a GitHub
+# ---------------------------------------------------------------
+# Contexto con cifras y números de factura reales (en cualquier carpeta)
+contexto_datos_tienda_bi.md
+# Carpeta privada: contexto real y la skill tiendagym-data-analyst con datos reales
+Plugins/
+# Skills empaquetadas para subir a claude.ai
+*.zip
+*.skill
+
+# Exportaciones reales de DreamSoft, Power BI y respaldos
+*.xls
+*.xlsx
+*.pbix
+*.pbip
+*.bak
+_respaldo_claude/
+
+# Credenciales y configuración local
+.env
+.env.*
+.claude/settings.local.json
+
+# Sistema y Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

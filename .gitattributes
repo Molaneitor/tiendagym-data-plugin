@@ -1,0 +1,2 @@
+# Los CSV de ejemplo se cargan con BULK INSERT usando LF como fin de línea
+*.csv text eol=lf
